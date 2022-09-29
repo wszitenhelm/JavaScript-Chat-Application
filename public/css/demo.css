@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  }
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #66BFBF;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  margin: 10px;
+}
+
+a:hover {
+  color: white;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+     
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background: #cbf1f5;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+/* passion section */
+
+#text-passions {
+  padding: 50px;
+  color: #960039;
+  text-align: center;
+}
+
+#left {
+  padding: 60px;
+  color: #11999E;
+  text-align: center;
+  background-color: #cbf1f5 ;
+}
+
+#right {
+  padding: 60px;
+  color: #11999E;
+  text-align: center;
+  background-color: #C69670;
+}
+
+#cooking-image {
+  width:  60%;
+  height: 60%;
+  margin: 0.5em 0 0.5em 0;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+#fit-image {
+  width:  60%;
+  height: 60%;
+  margin: 0.5em 0 0.5em 0;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.extra {
+  background-color: white;
+  padding: 50px;
+}
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+
+/* beginning travelling section */ 
+
+#travel-beginning {
+    padding: 40px;
+    background-color: #7CB74C;
+    color: #653614;
+    text-align: center;
+}
+
+#light {
+    background-color: #cbf1f5;
+}
+
+/* carousel section */
+
+
+.testimonial-image {
+  width: 800px;
+  height: 600px;
+  border: 12px solid #fff;
+}
+
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+/* destinations section */
+
+#destinations {
+    padding: 40px;
+    text-align: center;
+    background-color: #7CB74C;
+    color: #653614;
+}
+
+#goals {
+    background-color: #cbf1f5;
+}
+
+.container {
+  padding: 40px;
+  text-align: center;
+  color: #0E6973;
+}
+
+.attractions-image {
+  width: 400px;
+  height: 250px;
+  padding-bottom: 20px;
+}
+
+/* features section */ 
+
+#features {
+  padding: 2% 7%;
+  position: relative;
+  z-index: 1;
+  background-color:#653614;
+  margin-bottom: 40px;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.white {
+  color: #fff;
+}
+
+.icon {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #7CB74C;
+}
+
+/* professional section */ 
+
+.education {
+    background-color: #cbf1f5;
+    padding: 60px;
+}
+
+.work-experience {
+    background-color: white:
+}
+
+#work {
+    padding: 40px;
+}
+
+#left2 {
+    background-color: #cbf1f5;
+    padding: 40px;
+}
+
+#voluntary {
+    padding: 30px;
+}
+
+/* chat section */
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #66BFBF;
+    overflow-x: hidden;
+}
+
+
+.inbox__people{
+      color: white;
+      padding: 16px;
+}
+
+.message_form__button {
+    color: #66BFBF;
+}
+
+.messages__history {
+    color: #008080;
+}
+  
+.hrChat {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #66BFBF;
+  border-width: 5px;
+  width: 100%;
+}
+
+.typing__field {
+    text-align: center;
+    color: #66BFBF;
+}
+
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+ 
+.sidenav a:hover {
+    background-color: #cbf1f5;
+    color: #66BFBF;
+}
+  
+.content {
+    background-color: #cbf1f5;
+    margin-left: 200px;
+    padding-left: 20px;
+}
